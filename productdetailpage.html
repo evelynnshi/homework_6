@@ -1,0 +1,74 @@
+<!--HTML of product details page-->
+<!DOCTYPE html>
+<body>
+
+  <html lang="en">
+  <main class="container">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src = "shopping-cart.js"></script> 
+  
+    <!-- Right Column -->
+    <div class="right-column">
+   
+      <!-- Product Description -->
+      <div class="product-description">
+        <span>Fluff Stuff</span>
+        <h1>Classic Bed Pillow</h1>
+        <a href="pillow1.jpg"><img src="pillow1.jpg" alt="my pillow"></a>
+        <p>Soft and comfortable, this is one of the softest, hand-made pillow you can lay your head on. Not only it is made ethically, 30% of the profit goes to charitable causes.</p>
+      </div>
+   
+      <!-- Product Configuration -->
+      <div class="product-configuration">
+    <!-- Left Column / Pillows Image -->
+    <div class="left-column">
+      <a href="red.jpg"><img src="red.jpg" alt="my pillow"></a>
+      <a href="blue.jpg"><img src="blue.jpg" alt="my pillow"></a>
+      <a href="black.jpg"><img src="black.jpg" alt="my pillow"></a>
+    </div>
+        <!-- Product Color -->
+        <div class="product-color">
+          <span>Color</span>
+   
+          <div class="color-choose">
+            <div>
+
+              <input data-image="red" type="radio" id="red" name="color" value="red" checked>
+              <label for="red"><span></span></label>
+            </div>
+            <div>
+              <input data-image="blue" type="radio" id="blue" name="color" value="blue">
+              <label for="blue"><span></span></label>
+            </div>
+            <div>
+              <input data-image="black" type="radio" id="black" name="color" value="black">
+              <label for="black"><span></span></label>
+            </div>
+          </div>
+   
+        </div>
+   
+        <!-- Sizing Choices -->
+        <div class="size-config">
+          <span>Size configuration</span>
+   
+          <div class="size-choose">
+            <button>Small</button>
+            <button>Medium</button>
+            <button>Large</button>
+          </div>
+   
+          <a href="#">How to chose your pillows</a>
+        </div>
+      </div>
+   
+      <!-- Product Pricing -->
+      <div class="product-price">
+        <span>$19.99</span>
+        <a href="#" class="cart-btn">Add to cart</a>
+      </div>
+      <div class="summary">
+          <div class="summary-total-items"><span class="total-items"></span> Items in your Bag</div>
+      </div> 
+    </div>
+  </main>

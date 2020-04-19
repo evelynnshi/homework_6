@@ -1,0 +1,25 @@
+/*File sets the style for browsing page*/
+/*sets a small logo and large title*/
+img
+  {
+    width: 1.5cm;
+    height: 1.5cm;
+  }
+head
+  {
+    font-size: 2.25cm;
+    font-family: verdana;
+    text-align: center;
+  }
+/*sets larger square browsing image and text size*/
+img
+  {
+    width: 5cm;
+    height: 5cm;
+  }
+body 
+  {
+    background-color:lightblue;
+    font-family: sans-serif;
+    font-size: 1cm;
+  }
